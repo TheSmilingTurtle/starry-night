@@ -4,13 +4,17 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"enumMember": {
-			"foreground": "#56b6c2"
+			"foreground": "#56b6c2",
 		},
 		"keyword": {
-			"foreground": "#38ab7b",
+			"foreground": "#38AB7B",
 		},
 		"keyword.operator": {
-			"foreground": "#38ab7b",
+			"foreground": "#74C9CA",
+			"fontstyle": "bold"
+		},
+		"memberOperatorOverload": {
+			"foreground": "#74C9CA",
 			"fontstyle": "bold"
 		},
 		"variable.constant": {
@@ -18,6 +22,9 @@
 		},
 		"variable.parameter": {
 			"foreground": "#2663ad"
+		},
+		"type": {
+			"foreground": "#2bc288"
 		},
 		"variable.defaultLibrary": {
 			"foreground": "#548bcd"
@@ -82,6 +89,13 @@
 	}
 },
 {
+	"name": "entity.name.type.struct",
+	"scope": "entity.name.type.struct",
+	"settings": {
+		"foreground": "#b6d83c",
+	}
+},
+{
 	"name": "punctuation.separator.parameters.python",
 	"scope": "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python",
 	"settings": {
@@ -107,6 +121,14 @@
 	"scope": "storage.modifier.lifetime.rust",
 	"settings": {
 		"foreground": "#abb2bf"
+	}
+},
+{
+	"name": "storage.type.class.doxygen",
+	"scope": "storage.type.class.doxygen",
+	"settings": {
+		"foreground": "#197559",
+		"fontStyle": "bold"
 	}
 },
 {
@@ -468,14 +490,16 @@
 	"name": "keyword.operator",
 	"scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
 	"settings": {
-		"foreground": "#74c9ca"
+		"foreground": "#74c9ca",
+		"fontStyle": "bold"
 	}
 },
 {
 	"name": "C operator assignment",
 	"scope": "keyword.operator.assignment.compound.cpp,keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
 	"settings": {
-		"foreground": "#74c9ca"
+		"foreground": "#74c9ca",
+		"fontStyle": "bold"
 	}
 },
 {
@@ -524,7 +548,8 @@
 	"name": "python logical",
 	"scope": "keyword.operator.logical.python",
 	"settings": {
-		"foreground": "#74c9ca"
+		"foreground": "#74c9ca",
+		"fontStyle": "bold"
 	}
 },
 {
@@ -559,7 +584,8 @@
 	"name": "Operators",
 	"scope": "keyword.operator",
 	"settings": {
-		"foreground": "#abb2bf"
+		"foreground": "#abb2bf",
+		"fontStyle": "bold"
 	}
 },
 {
@@ -580,7 +606,7 @@
 	"name": "Keywords",
 	"scope": "keyword",
 	"settings": {
-		"foreground": "#38ab7b"
+		"foreground": "#4889ea"
 	}
 },
 {
@@ -723,7 +749,7 @@
 	"name": "Storage",
 	"scope": "storage",
 	"settings": {
-		"foreground": "#38ab7b"
+		"foreground": "#9cab38"
 	}
 },
 {
@@ -872,7 +898,7 @@
 	"name": "Units",
 	"scope": "keyword.other.unit",
 	"settings": {
-		"foreground": "#e06c75"
+		"foreground": "#B55F5F"
 	}
 },
 {
@@ -1867,7 +1893,7 @@
 	"name": "Comments",
 	"scope": "comment, punctuation.definition.comment",
 	"settings": {
-		"foreground": "#1f6d6a"
+		"foreground": "#2e808a"
 	}
 },
 {
@@ -1956,8 +1982,16 @@
 		"variable.other.object"
 	],
 	"settings": {
-		"foreground": "#e5a6f8"
+		"foreground": "#257080"
 	}
+},
+{
+	"name": "Directives",
+	"scope": "keyword.control.directive",
+	"settings": {
+		"foreground": "#a42e67",
+	}
+
 },
 {
 	"name": "variable.other.constant.property",
