@@ -584,7 +584,7 @@
 	"name": "python function-call.generic",
 	"scope": "meta.function-call.generic.python",
 	"settings": {
-		"foreground": "#61afef"
+		"foreground": "#B55F5F"
 	}
 },
 {
@@ -791,7 +791,7 @@
 	"name": "Support",
 	"scope": "support.function",
 	"settings": {
-		"foreground": "#56b6c2"
+		"foreground": "#B55F5F"
 	}
 },
 {
@@ -1311,6 +1311,13 @@
 	"scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
 	"settings": {
 		"foreground": "#c678dd"
+	}
+},
+{
+	"name": "Idk, I think just anything that doesnt have a colour in python yet",
+	"scope": "source.python",
+	"settings": {
+		"foreground": "#548bcd"
 	}
 },
 {
