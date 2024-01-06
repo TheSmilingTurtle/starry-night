@@ -1,2 +1,2 @@
 # README
-My custom VSCode theme, totally not stollen.
+My custom VSCode theme, totally not stolen.
